@@ -8977,3 +8977,7 @@ a.text-dark:hover, a.text-dark:focus {
 	width: 100%;
    height: 175px;
 }
+
+.col-h-prod {
+	min-height: 340px;
+}
