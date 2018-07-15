@@ -8981,3 +8981,10 @@ a.text-dark:hover, a.text-dark:focus {
 .col-h-prod {
 	min-height: 340px;
 }
+
+.bg-video_load {
+	background-image: url(../images/Loading2.jpg);
+	background-color: #343a40 !important;
+	background-size: cover;
+  	background-position: center;
+}
