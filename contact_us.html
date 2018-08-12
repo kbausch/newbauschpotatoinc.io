@@ -33,17 +33,17 @@
             <li class="nav-item active">
               <a class="nav-link" href="#">Contact Us <span class="sr-only">(current)</span> </a>
             </li>
-            <li class="nav-item">
+            <!--<li class="nav-item">
               <a class="nav-link disabled" href="#">Empty Space</a>
-            </li>
+            </li>-->
 			<li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="delivery_info.html">Delivery Info</a>
                 <a class="dropdown-item" href="products.html">Products</a>
 				<!--<a class="dropdown-item" href="#">Current Customers</a>-->
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Gallery</a>
+                <!--<div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Gallery</a>-->
               </div>
 			</li>
           </ul>
@@ -60,7 +60,7 @@
     <hr>
     <div class="container"> 
 		<div class="row">
-			<div class="col-lg-4">
+			<div class="col-lg-4 col-6">
             	<div class="media">
 					<img class="d-block w-100" src="images/BPI Facility 045.jpg" alt="Error: Image Failed to Load">
 				</div>
@@ -80,7 +80,25 @@
 				</div>
 			</div>
 			<div class="col-lg-4">
-				
+				<h5>Send us a message!</h5>
+<form method="post" action="send_mail.php">
+<p>
+<label class="media-t">First&nbsp;Name&nbsp;
+<input type="text" name="first_name" required style="width: 100%">
+</label> 
+</p>
+<p>
+<label class="media-t">Your&nbsp;Email&nbsp;
+<input type="email" name="email_address" style="width: 100%">
+</label>
+</p>
+<p>
+<label class="media-t">Message&nbsp;&nbsp;&nbsp;&nbsp;
+<textarea name="comments" maxlength="500" style="width: 100%"></textarea>
+</label>
+</p>
+<p><button>Submit the form</button></p>
+</form>
 				
 			</div>
 		</div>

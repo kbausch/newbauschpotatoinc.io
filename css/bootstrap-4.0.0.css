@@ -5151,6 +5151,7 @@ tbody.collapse.show {
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
+	outline-style: solid;
 }
 
 .media-body {
@@ -8991,4 +8992,13 @@ a.text-dark:hover, a.text-dark:focus {
 
 .col-h-lg-prod {
 	min-height: 685px;
+}
+
+.media-t {
+	display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
